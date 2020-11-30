@@ -1,5 +1,7 @@
 # vscodeRepository
 
-testando querySelector/querySelectorAll, innerHTML, forEach
+código criado com o objetivo de estudar sobre:
 
-contadores em divs com mesmo nome na classe.
+querySelector/querySelectorAll, innerHTML, forEach
+
+contador numérico em divs com classe de mesmo nome.
