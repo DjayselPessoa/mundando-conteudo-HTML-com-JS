@@ -27,7 +27,16 @@ boxes.forEach(box =>{
         //transformando a string em número e guardando na variável
         var cont = parseInt(numN.innerHTML);
         //alterando valor
-        numN.innerHTML = ++cont;        
+        numN.innerHTML = ++cont;
+        //adicionando eventos
+        switch(cont){
+            case 10:
+                alert('10 cliques!');
+                break;
+            case 15:
+                alert('15 cliques!');
+                break;
+        }     
         //alterando cor de fundo e do texto de acordo com a cor atual
         switch(box.style.backgroundColor){
             case 'red':
